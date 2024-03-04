@@ -1,0 +1,25 @@
+{
+  "name": "f9-backend",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "five9 integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "five9",
+    "autotask"
+  ],
+  "author": "Ritank Saxena",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "circular-json": "^0.5.9",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.0"
+  }
+}
